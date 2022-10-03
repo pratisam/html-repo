@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aquamarine;
+}
+img{
+    width: 350px;
+    height: 450px;
+    margin-right: 0;
+    box-shadow: -30px 25 px rgb(228, 222, 222);
+}
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.main-container{
+    margin: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between ;
+}
+.section{
+    margin: 30px;
+   
+}
+.letters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    margin-left: 100px;
+}
